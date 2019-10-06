@@ -24,8 +24,9 @@ s = Singleton()
 
 print(s)
 
-s = Singleton.getInstance()
+s = Singleton.get_instance()
 print(s)
 
-s = Singleton.getInstance()
+s = Singleton.get_instance()
 print(s)
+
