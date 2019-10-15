@@ -1,6 +1,6 @@
 package creational.factory_method.SimpleFactory;
 
-public class Main {
+public class MainSimpleFactory {
     public static void main(String[] args) {
         ShapeFactory sf = new ShapeFactory();
 
