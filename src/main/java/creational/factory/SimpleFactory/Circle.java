@@ -1,4 +1,4 @@
-package creational.factory_method.SimpleFactory;
+package creational.factory.SimpleFactory;
 
 public class Circle implements Shape {
     public void draw() {

@@ -1,4 +1,4 @@
-package creational.factory_method.FactoryMethod;
+package creational.factory.FactoryMethod;
 
 public class ConcreteProductLite implements Product{
     @Override

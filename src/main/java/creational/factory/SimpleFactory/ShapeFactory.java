@@ -1,4 +1,4 @@
-package creational.factory_method.SimpleFactory;
+package creational.factory.SimpleFactory;
 
 public class ShapeFactory {
     public Shape getShape(ShapeType shapeType){

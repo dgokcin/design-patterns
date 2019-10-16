@@ -1,4 +1,4 @@
-package creational.factory_method.FactoryMethod;
+package creational.factory.FactoryMethod;
 
 public abstract class ProductFactory {
     public void useProduct(String type){

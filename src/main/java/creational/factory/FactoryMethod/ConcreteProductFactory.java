@@ -1,4 +1,4 @@
-package creational.factory_method.FactoryMethod;
+package creational.factory.FactoryMethod;
 // Bu paketi client yaziyor
 public class ConcreteProductFactory extends ProductFactory{
     int id;
