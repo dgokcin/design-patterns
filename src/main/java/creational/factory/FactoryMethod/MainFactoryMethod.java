@@ -13,8 +13,8 @@ public class MainFactoryMethod {
 
         cpf.useProduct("2");
 
-//        ProductFactory cpfp = new ConcreteProductFactoryPro();
-//        cpfp.useProduct("Pro");
+        ProductFactory cpfp = new ConcreteProductProFactory();
+        cpfp.useProduct("mert");
 
     }
 
