@@ -1,6 +1,10 @@
 package creational.prototype.ShallowAndDeepCopy;
 
 
+//A deep copy occurs when an object is copied along with the objects to which it refers.
+//Shallow copy is a bit-wise copy of an object. A new object is created that has an exact
+//copy of the values in the original object.
+
 class Apple {
     int weight;
 

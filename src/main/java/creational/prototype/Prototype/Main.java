@@ -1,5 +1,13 @@
 package creational.prototype.Prototype;
 
+//Specify the kinds of objects to create using a prototypical instance 
+//and create new objects by copying this prototype.
+
+//Use When
+//to avoid building a class hierarchy of factories that parallels the class hierarchy of products; or
+//when instances of a class can have one of only a few different combinations of state; or
+//when the classes to instantiate are specified at run-time, for example, by dynamic loading.
+
 // we want to implement the Cloneable interface
 // implement DeepCopy for our object
 // so that the client can create a prototype obj and use its
