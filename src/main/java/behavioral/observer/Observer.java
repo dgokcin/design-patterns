@@ -1,6 +1,6 @@
 package behavioral.observer;
 
-// observerin sadece bur ipdate metodu var.
+// observerin sadece bir update metodu var.
 public interface Observer {
     void update(WeatherData data);
 }

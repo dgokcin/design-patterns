@@ -20,6 +20,7 @@ public class WeatherStation {
         System.out.println("2nd update");
         weatherData.setMeasurements(82, 70, 29.2f);
         System.out.println("-----------------------");
+        weatherData.removeObserver(statisticsDisplay);
         System.out.println("3rd update");
         weatherData.setMeasurements(78, 90, 29.2f);
     }

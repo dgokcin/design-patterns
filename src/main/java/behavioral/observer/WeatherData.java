@@ -20,8 +20,8 @@ public class WeatherData implements Observable {
 
     @Override
     public void removeObserver(Observer observer) {
+        System.out.println("Removing observer...");
         observers.remove(observer);
-
     }
 
     @Override
@@ -55,6 +55,4 @@ public class WeatherData implements Observable {
     public String toString() {
         return "h: " + humidity + " t: " + temperature + " p: " + pressure;
     }
-
-
 }

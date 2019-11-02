@@ -7,9 +7,9 @@ public class StatisticDisplay implements Observer {
     private int numReadings = 0;
 
     public StatisticDisplay() {
-
     }
 
+    // you are calling the registerObserver method inside the constructor.
     public StatisticDisplay(WeatherData wd) {
         float t = wd.getTemperature();
         minTemp = t;
