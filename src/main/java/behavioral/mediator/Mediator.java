@@ -5,5 +5,4 @@ package behavioral.mediator;
 // and forces them to collaborate only via a mediator object.
 public interface Mediator {
     void send(User fromUser, String message);
-
 }
