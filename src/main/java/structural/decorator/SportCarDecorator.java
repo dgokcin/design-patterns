@@ -2,6 +2,7 @@ package structural.decorator;
 
 public class SportCarDecorator extends CarDecorator {
 
+    //constructor
     public SportCarDecorator(Car c) {
         super(c);
     }
