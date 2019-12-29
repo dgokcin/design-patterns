@@ -1,7 +1,7 @@
 package behavioral.memento;
 // use memento when:
 //produce snapshots of the objects state to be able to restore a previous state of the object.
-//using serializtion along wiht memento, it is easy to prserve the object state and bring it back later on.
+//using serialization along with memento, it is easy to prserve the object state and bring it back later on.
 public class MementoPatternDemo {
     public static void main(String[] args) {
 

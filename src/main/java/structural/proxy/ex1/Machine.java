@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.proxy.ex1;
 
 //both proxy and the real machine will implement this interface.
 public interface Machine {

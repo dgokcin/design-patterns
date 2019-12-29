@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.proxy.ex1;
 
 public class Main {
     public static void main(String[] args) {

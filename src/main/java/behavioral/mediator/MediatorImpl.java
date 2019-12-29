@@ -2,6 +2,7 @@ package behavioral.mediator;
 
 import java.util.Date;
 
+//concrete mediator
 public class MediatorImpl implements Mediator {
 
     @Override

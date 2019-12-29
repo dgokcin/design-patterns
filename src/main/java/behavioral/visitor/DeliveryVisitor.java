@@ -11,4 +11,10 @@ public class DeliveryVisitor implements Visitor {
         System.out.println("delivery with bike");
     }
 
+    @Override
+    public void visit(DVD dvd) {
+        System.out.println("delivery with flight");
+
+    }
+
 }

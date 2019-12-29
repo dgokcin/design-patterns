@@ -1,6 +1,7 @@
 package behavioral.mediator;
 
 public abstract class User {
+    //reference to the mediator
     protected Mediator mediator;
     protected String name;
 

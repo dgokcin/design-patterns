@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.proxy.ex1;
 
 //motivation: defer the full cost of creating and initializing an object until we actually need it.
 

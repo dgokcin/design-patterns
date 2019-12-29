@@ -1,4 +1,4 @@
-package structural.proxy;
+package structural.proxy.ex1;
 
 public class RemoteMachine implements Machine {
     private int x = 0;

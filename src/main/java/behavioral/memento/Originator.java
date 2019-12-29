@@ -16,6 +16,7 @@ public class Originator {
         this.state = state;
     }
 
+    //o anki state li yeni bir memento olustu
     public Memento saveStateToMemento() {
         return new Memento(state);
     }
