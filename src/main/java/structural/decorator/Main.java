@@ -1,5 +1,10 @@
 package structural.decorator;
 
+/*
+Intent
+Attach additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to sub classing for extending functionality.
+ */
 public class Main {
 
     public static void main(String[] args) {

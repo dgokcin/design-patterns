@@ -1,5 +1,14 @@
 package structural.flyweight;
 
+/*
+Intent:
+- Use sharing to support large numbers of fine-grained objects efficiently.
+
+Motivation:
+- Some applications could benefit from using objects throughout their design,
+but a naive implementation would be prohibitively expensive.
+
+ */
 public class Main {
 
     private static final String[] colors = {"Red", "Green", "Blue", "White", "Black"};

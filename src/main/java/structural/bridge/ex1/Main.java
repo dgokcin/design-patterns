@@ -1,7 +1,16 @@
 package structural.bridge.ex1;
 
 @SuppressWarnings("unused")
+/*
+Intent:
+- Decouple an abstraction from its implementation so that the two can vary independently.
+Motivation:
+- When an abstraction can have one of several possible implementations,
+the usual way to accommodate them is to use inheritance.
+- But inheritance binds an implementation to the abstraction permanently, which
+makes it difficult to modify, extend, and reuse abstractions and implementations independently.
 
+ */
 public class Main {
 
     public static void main(String[] args) {

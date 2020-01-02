@@ -1,5 +1,12 @@
 package structural.proxy.ex1;
 
+/*
+Intent:
+- Provide a surrogate or placeholder for another object to control access to it.
+Motivation:
+defer the full cost of creating and initializing an object until we actually need it.
+
+ */
 public class Main {
     public static void main(String[] args) {
 
