@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.ex1;
 
 public class SportCarDecorator extends CarDecorator {
 
