@@ -1,4 +1,4 @@
-package behavioral.iterator;
+package behavioral.iterator.ex1;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Main {
         bookShelf.appendBook(new Book("Daddy-Long-Legs"));
 
         Iterator it = bookShelf.createIterator();
-        //Iterator itEven = new BookShelfEvenIterator(bookShelf);
+        Iterator itEven = new BookShelfEvenIterator(bookShelf);
 
         while (it.hasNext()) {
             Book book = (Book) it.next();
@@ -17,9 +17,10 @@ public class Main {
         }
 
         System.out.println("********");
-//        while (itEven.hasNext()) {
-//            Book book = (Book) itEven.next();
-//            System.out.println(book.getName());
-//        }
+        while (itEven.hasNext()) {
+            Book book = (Book) itEven.next();
+            System.out.println(book.getName());
+        }
     }
 }
+

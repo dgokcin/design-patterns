@@ -1,4 +1,4 @@
-package behavioral.iterator;
+package behavioral.iterator.ex1;
 
 public class Book {
     private String name;
