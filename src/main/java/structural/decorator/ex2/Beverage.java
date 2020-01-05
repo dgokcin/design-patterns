@@ -8,23 +8,7 @@ public abstract class Beverage
     }
 
     private int size;
-
     String description = "Unknown Beverage";
-
-    public String getDescription()
-    {
-	return description;
-    }
-
-    public void setSize(int size)
-    {
-	this.size = size;
-    }
-
-    public int getSize()
-    {
-	return size;
-    }
-
+    public String getDescription() {return description;}
     public abstract double cost();
 }
